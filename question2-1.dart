@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('in put Number:');
+  print('In put Number:');
   String? input = stdin.readLineSync();
 
   if (input != null && int.tryParse(input) != null) {
@@ -12,5 +12,7 @@ void main() {
     } else {
       print('$number is odd.');
     }
+  } else {
+    print('Please enter a valid number.');
   }
 }

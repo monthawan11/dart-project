@@ -1,6 +1,9 @@
 void main() {
-  print('สูตรคูณแม่ 5:');
+  int number = 5;
+
+  print('Multiplication Table of $number:');
+  
   for (int i = 1; i <= 12; i++) {
-    print('5 x $i = ${5 * i}');
+    print('$number x $i = ${number * i}');
   }
 }
